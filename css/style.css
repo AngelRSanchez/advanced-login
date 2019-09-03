@@ -163,10 +163,33 @@ form h6 {
 }
 
 form .form-group{
-    text-align: center;
+    text-align: left;
     border: 1px solid var(--border-color);
-
+    margin-top: .9rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
 }
 
+form .form-group .form-input {
+    padding: .5rem 1rem;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    font-family: var(--Montserrat);
+    font-size: .9rem;
+}
 
-/* minuto 36:08 */
+form input:focus {
+    outline: none;
+}
+
+form .input-icon {
+    display: inline;
+    color: var(--border-color);
+}
+
+form .btn-login {
+    float: none;
+    padding: .8rem 5rem;
+    margin-left: 2rem;
+}
